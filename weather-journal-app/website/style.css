@@ -1,0 +1,130 @@
+body {
+    background: url(./269569.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    justify-content: center;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    /* grid-template-columns: */
+    height: 100vh;
+    color: #000000;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headline {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.holder {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.entry {
+    background: #07133340;
+    margin: 20px auto;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    opacity: 9;
+    transition: all 2s ease;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: #eb5122;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    display: block;
+    font-size: 27px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#entryHolder {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-rows: 60%;
+    grid-template-columns: 50% 50%;
+    font-size: 1.5vw;
+    color: aqua;
+}
+
+#feelings,
+#zip {
+    background: #fefefe;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px auto 0px;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    font-size: 15px;
+}
+
+#generate {
+    text-align: center;
+    width: 60%;
+    height: 15%;
+    font-size: 20px;
+    background-color: #1484a0;
+    margin-top: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+
+}
